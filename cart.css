@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+#products-container{
+    display: grid;
+    grid-template-columns:auto auto auto;
+  
+}
+
+#products-container div{
+    background-color: rgb(251, 246, 249);
+    border: 1px solid black;
+    text-align:center;
+}
+.carticon{
+    width: 20px;
+    height:20px;
+}
